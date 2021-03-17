@@ -20,35 +20,35 @@ ul {
 }
 
 .wrapper {
-  padding: 0 30px;
+  padding: 0 1.875rem;
 }
 
 .cards {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  max-width: 636px;
-  margin: 70px auto;
+  box-shadow: 0.3125rem 0.3125rem 1.25rem rgba(0, 0, 0, 0.2);
+  max-width: 39.75rem;
+  margin: 4.375rem auto;
 }
 
 .cards__one {
   background-color: #fff;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  border-top-left-radius: 0.4375rem;
+  border-top-right-radius: 0.4375rem;
 }
 
 .cards__one > h1 {
   color: #2ab2af;
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .cards__one > h2 {
   color: #bdde2b;
-  font-size: 15px;
-  margin-bottom: 20px;
+  font-size: 0.9375rem;
+  margin-bottom: 1.25rem;
 }
 
 .cards__one > p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.7rem;
   color: #98a6bd;
 }
@@ -60,11 +60,11 @@ ul {
 
 .cards__two > h2 {
   font-size: 1.1rem;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .cards__two .cards__two-price {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .cards__two .amount {
@@ -74,55 +74,62 @@ ul {
 
 .cards__two .monthly {
   position: relative;
-  left: 8px;
-  bottom: 5px;
+  left: 0.5rem;
+  bottom: 0.3125rem;
   opacity: 0.7;
 }
 
 .cards__two-btn {
-  background-color: #b7d822;
-  color: #e5eff5;
   font-family: "Karla", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  border-radius: 5px;
-  margin-top: 30px;
-  padding: 15px 0;
-  border: none;
+  margin-top: 1.875rem;
+  padding: 0.9375rem 0;
   width: 100%;
-  box-shadow: 3px 7px 15px 2px rgba(0, 0, 0, 0.2);
-  transition: color 500ms, background-color 500ms;
+}
+
+.cards__two-btn:focus {
+  outline: none;
 }
 
 .cards__three {
   background-color: #2dbebc;
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 0.4375rem;
+  border-bottom-left-radius: 0.4375rem;
   color: #e5eff5;
 }
 
 .cards__three > h2 {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .cards__three-features {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.2rem;
   opacity: 0.9;
 }
 
 .cards--padding {
-  padding: 29px 23px;
+  padding: 1.8125rem 1.4375rem;
 }
 
 .cards--padding__btm {
-  padding: 27px 24px;
+  padding: 1.6875rem 1.5rem;
 }
 
-@media (min-width: 600px) {
+.btn--style {
+  box-shadow: 0.1875rem 0.4375rem 0.9375rem 0.125rem rgba(0, 0, 0, 0.2);
+  transition: color 500ms, background-color 500ms;
+  background-color: #b7d822;
+  border-radius: 0.3125rem;
+  color: #e5eff5;
+  border: none;
+}
+
+@media (min-width: 37.5rem) {
   .cards {
-    margin-top: 163px;
+    margin-top: 10.1875rem;
   }
   .cards--grid {
     display: grid;
@@ -130,7 +137,7 @@ ul {
   }
   .cards--padding,
   .cards--padding__btm {
-    padding: 43px 38px;
+    padding: 2.6875rem 2.375rem;
   }
   .cards__one {
     grid-column: span 2;
@@ -140,18 +147,19 @@ ul {
   }
   .cards__one h2 {
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
   }
   .cards__one p {
     font-size: 1rem;
   }
   .cards__two {
     grid-column: 1/2;
-    border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 0.4375rem;
   }
   .cards__two-btn:hover {
     background-color: #e5eff5;
     color: #b7d822;
+    cursor: pointer;
   }
   .cards__three {
     grid-column: 2/3;

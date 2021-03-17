@@ -1,7 +1,16 @@
 .cards--padding {
-  padding: 29px 23px;
+  padding: 1.8125rem 1.4375rem;
 }
 
 .cards--padding__btm {
-  padding: 27px 24px;
+  padding: 1.6875rem 1.5rem;
+}
+
+.btn--style {
+  box-shadow: 0.1875rem 0.4375rem 0.9375rem 0.125rem rgba(0, 0, 0, 0.2);
+  transition: color 500ms, background-color 500ms;
+  background-color: darken($primary-yellow, 5%);
+  border-radius: 0.3125rem;
+  color: $secondary-gray;
+  border: none;
 }
